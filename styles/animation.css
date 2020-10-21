@@ -1,0 +1,82 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.main-article-animation {
+  height: 60%;
+}
+
+.animation {
+  font-size: 100px;
+  font-weight: bold;
+  color: transparent;
+  background-image:linear-gradient(to right, red, violet);
+  letter-spacing: -10px;
+  
+  -webkit-background-clip: text; /*permet de mettre le background que sur le text*/
+  background-clip: text;
+}
+
+
+.animation:nth-child(1) {
+  position: relative;
+  top: 30px;
+  background-image:linear-gradient(to right, #0071f0, #00dfd8);
+  animation: anim-gradient 8s -2.6s infinite;
+}
+.animation:nth-child(2) {
+  
+  background-image:linear-gradient(to right,#7928ca, #ff0080);
+  animation: anim-gradient 8s 0s infinite;
+}
+.animation:nth-child(3) {
+  position: relative;
+  bottom: 10px;
+  background-image:linear-gradient(to right, #ff4d4d, #f9cb28);
+  animation: anim-gradient 8s -5.2s infinite;
+  
+}
+
+@keyframes anim-gradient {
+  0%{
+    color: black;
+  }
+  16.667% {
+    color: black;
+  }
+  33.333% {
+    color: transparent;
+  }
+  50% {
+    color: transparent;
+  }
+  66.667% {
+    color: black;
+  }
+  100% {
+    color: black;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .animation {
+    font-size: 50px;
+    letter-spacing: 0px;
+    bottom: 0;
+    top: 0;
+  }
+
+  .animation:nth-child(1) {
+  position: relative;
+  top: 0px;
+  }
+
+  .main-article-animation {
+    height: 20%;
+}
+
+  }
