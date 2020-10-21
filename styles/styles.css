@@ -233,7 +233,8 @@
     .title {
       margin-left: 0px;
       margin-right: 15px;
-      padding: 5px;
+      padding: 0;
+    
     }
 
     nav {
@@ -285,6 +286,9 @@
     .main-article {
       display: flex;
       flex-direction: column;
+    }
+
+    .index {
       margin-top: 100px;
     }
 
