@@ -244,7 +244,7 @@
 
       height: 2.5rem;
       width: 1.5rem;
-      padding-left: 0.5rem;
+      padding-left: rem;
 
       cursor: pointer;
       align-self:center;
