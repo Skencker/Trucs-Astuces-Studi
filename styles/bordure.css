@@ -1,0 +1,57 @@
+  /*bordures de repéres*/
+  * {
+    margin: 3px;
+  }
+
+  .wrapper {
+    border: 3px solid black;
+
+  }
+
+  header {
+    border: 3px solid red;
+  }
+
+  .title {
+    border: 3px solid rgb(224, 17, 179);
+  }
+
+  .navbar {
+    border: 3px solid blue;
+  }
+
+  /*.navbar-menu {
+    border: 3px solid green;
+  }*/
+
+  .navbar-menu-links {
+    border: 3px solid black;
+  }
+
+  main {
+    border: 3px solid orange;
+  }
+  
+  h2 {
+    border: 3px solid rgb(21, 156, 77);
+
+  }
+
+  article {
+    border: 3px solid rgb(0, 255, 234);
+  }
+  
+  .main-article {
+    border: 3px solid rgb(192, 233, 10);
+
+  }
+
+  p {
+    border: 3px solid black;
+  }
+
+
+  footer {
+    border: 3px solid rgb(104, 43, 216);
+  }
+
