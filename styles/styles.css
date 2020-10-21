@@ -66,11 +66,10 @@
     border-bottom:1px solid black ;
   }
   
-  a:hover {
-    
+  p > a:hover {
     font-weight: bold;
-    
     text-shadow: 4px 4px 5px #AA4FE5;
+
     border-bottom:1px solid black ;
   }
   
